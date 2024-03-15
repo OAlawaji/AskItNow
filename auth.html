@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Login/Register - User Profile</title>
+
+  </head>
+  <body>
+    <header>
+        <div class="photo-texter">
+          <img src="images/AskItNowLogo.png" class="logo" alt="logo" />
+          <a href="index.html" class="AskItNow "> AskItNow</a>
+        </div>
+        <input type="text" class="search-bar" placeholder="Search questions..." />
+        <div class="photo-texter">
+          <a href="auth.html">login</a>
+          <img
+            src="https://www.gravatar.com/avatar/placeholder?s=50&d=robohash"
+            class="logo"
+            alt="Sample avatar"
+          />
+        </div>
+      </header>
+    <div class="login-grid">
+      <h1>Login</h1 >
+
+          <label for="email" class="flex-item">Email</label>
+          <input type="text" />
+
+          <label for="password">Password</label>
+          <input type="text" />
+
+
+      <button class="dark-blue auth-button">Login</button>
+      <br>
+      <div id="login-to-register">OR register if you don't have an account</div>
+    </div>
+    <div class="login-grid">
+        <h1>Register</h1 >
+  
+
+            <label for="email" class="flex-item">Email</label>
+            <input type="text" /> 
+
+            <label for="password">Password</label>
+            <input type="text" />
+
+            <label for="full-name">Full Name</label>
+            <input type="text" />
+
+        <label for="bio">Bio</label>
+        <textarea id="bio" rows="5"></textarea>
+        <label for="full-name">Full Name</label>
+        <input type="text" />
+
+
+          <label for="photo-upload" class="upload-placeholder"> Upload Photo          </label>
+          <input type="file" id="photo-upload" accept="image/*">
+
+
+
+
+        <button class="dark-blue auth-button">Create Profile</button>
+      </div>
+      </div>
+      <footer>
+        2024 <span class="AskItNow"> Ask It Now </span> Q&A Platform - All rights
+        reserved.
+      </footer>
+  </body>
+</html>

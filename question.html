@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Question Detail - AskItNow</title>
+  </head>
+  <body>
+    <header>
+      <div class="photo-texter">
+        <img src="images/AskItNowLogo.png" class="logo" alt="logo" />
+        <a href="index.html" class="AskItNow"> AskItNow</a>
+      </div>
+      <input type="text" class="search-bar" placeholder="Search questions..." />
+      <div class="photo-texter">
+        <a href="auth.html">login</a>
+        <img
+          src="https://www.gravatar.com/avatar/placeholder?s=50&d=robohash"
+          class="logo"
+          alt="Sample avatar"
+        />
+      </div>
+    </header>
+
+    <div class="questions-grid">
+      <div id="line1">
+        <div id="line1-left">Asked At: 01/01/2024</div>
+        <h2>How do I solve a NullPointerException in Java?</h2>
+        <div id="line1-text">
+          I'm getting a NullPointerException when trying to access a variable.
+          How can I solve this?
+        </div>
+        <div class="tags">
+          <button>java</button>
+          <button>exception</button>
+        </div>
+        <div class="author">Asked by: John Doe</div>
+      </div>
+
+      <div id="line2">
+        <h2>Answers</h2>
+        <div class="answer">
+          <div style="grid-column: 1"><button>👍</button></div>
+          <div style="grid-column: 1">5</div>
+          <div style="grid-column: 1"><button>👎</button></div>
+          <div style="grid-column: 1"><button>Accept</button></div>
+          <div style="grid-column: 1">✔</div>
+          <div style=" grid-column: 2; grid-row: 1/4; font-size: x-large;">You need to check if the variable is null before accessing it.</div>
+          <div style=" grid-column: 2; grid-row: 3;">Answered on: 02/01/2024</div>
+          <div style=" grid-column: 3; grid-row: 1/5;">Answered by: Omar Salih</div>
+          
+        </div>
+      </div>
+      <div class="answer">
+        <div style="grid-column: 1"><button>👍</button></div>
+        <div style="grid-column: 1">3</div>
+        <div style="grid-column: 1"><button>👎</button></div>
+        <div style="grid-column: 1"><button>Accept</button></div>
+        <div style=" grid-column: 2; grid-row: 1/4; font-size: x-large;">You need to check if the variable is null before accessing it.</div>
+        <div style=" grid-column: 2; grid-row: 3;">Answered on: 02/01/2024</div>
+        <div style=" grid-column: 3; grid-row: 1/5;">Answered by: Omar Salih</div>
+        
+      </div>
+      <div id="line4">
+        <h2>Your Answer</h2>
+        <textarea id="details" rows="5"></textarea> 
+        <button class="dark-blue">Post Your Answer</button>
+      </div>
+      <div id="right-hand">     
+    <h2>Related Questions</h2>
+    <ul>
+      <a href="question.html">
+        <li>How do I solve a NullPointerException in Java?</li>
+      </a>
+      <a href="question.html">
+        <li>How to sort an array in Java?</li>
+      </a>
+    </ul>
+      </div>
+    </div>
+    <footer>
+      2024 <span class="AskItNow"> Ask It Now </span> Q&A Platform - All rights
+      reserved.
+    </footer>
+  </body>
+</html>
